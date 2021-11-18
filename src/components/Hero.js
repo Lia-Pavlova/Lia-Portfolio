@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
             <div className="resume">
               <a
-                href="../data/resume.pdf"
+                href="../data/LiaPavlovaCV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 type="file"

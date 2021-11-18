@@ -1,0 +1,57 @@
+{
+  "education": [
+    {
+      "year": "2011 - 2014 (Postgraduate student)",
+      "companyName": "Kharkiv National University of Radioelectronics",
+      "role1": "Postgraduate student",
+      "role2": "Specialization: 05.11.17 Biological medical devices and systems"
+    },
+    {
+      "year": "2009 - 2010 (Master of Science)",
+      "companyName": "Kharkiv National University of Radioelectronics",
+      "role1": "Master of Science (M.S.) with qualification Scientific associate (electronics, biomedical equipments)",
+      "role2": "Specialization: 8.091002 Biotechnical medical devices and systems"
+    },
+    {
+      "year": "2005 - 2009 (Bachelor's degree)",
+      "companyName": "Kharkiv National University of Radioelectronics",
+      "role1": "Bachelor's degree with qualification Specialist at field of electronics and telecommunications",
+      "role2": "Specialization: 6.0910 Electronic devices"
+    },
+    {
+      "year": "2001 - 2005 (Junior engineer-electronics)",
+      "companyName": "Kharkiv Patent Computer College",
+      "role1": "Diploma of Junior specialist with qualification Junior engineer-electronics",
+      "role2": "Specialization: 5.091504 Service of computer intellectual systems and networks"
+    }
+  ],
+
+  "additionalEd": [
+    {
+      "year": "2021 - present",
+      "companyName": "IT School GoIT",
+      "site": "https://goit.ua/fullstackonline/",
+      "role1": "Full Stack Developer",
+      "certificate": "../assets/image/certificate.png"
+    },
+    {
+      "year": "2008 - 2009",
+      "companyName": "American English Center",
+      "site": "https://americanenglish.ua/ru/",
+      "role1": "The advanced level of instruction",
+      "certificate": "../assets/image/aec.jpg"
+    }
+  ],
+
+  "workExp": [
+    {
+      "year": "2010 - 2021",
+      "companyName": "Kharkiv National University of Radioelectronics",
+      "site": "https://nure.ua/en/department/department-of-biomedical-engineering-bme",
+      "role1": "Deputy dean for educational-methodical work",
+      "role2": "Senior instructor to provide the conduct of external independent estimation",
+      "role3": "Teacher assistant",
+      "role4": "Graduate research scientist"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 import React from 'react'
 import Social from './element/Social'
-import resume_file from '../assets/Lia_Pavlova_CV.pdf'
+import resume_file from '../assets/Natalia_Pavlova_resume.pdf'
 
 export default function Hero() {
   return (
-    <section className="hero-banner" id="hero">
+    <section className="hero-banner" id="home">
       <div className="container">
         <div className="hero-body">
           <div className="social title float-left">
@@ -33,7 +33,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 type="file"
                 className="btn btn-lg btn-green text-white"
-                download="Lia_Pavlova_CV.pdf"
+                download="Natalia_Pavlova_resume.pdf"
               >
                 Get Resume
               </a>

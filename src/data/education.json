@@ -32,14 +32,14 @@
       "companyName": "IT School GoIT",
       "site": "https://goit.ua/fullstackonline/",
       "role1": "Full Stack Developer",
-      "certificate": "../assets/image/certificate.png"
+      "certificate": "certificate.png"
     },
     {
       "year": "2008 - 2009",
       "companyName": "American English Center",
       "site": "https://americanenglish.ua/ru/",
       "role1": "The advanced level of instruction",
-      "certificate": "../assets/image/aec.jpg"
+      "certificate": "aec.jpg"
     }
   ],
 

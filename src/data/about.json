@@ -4,28 +4,29 @@
       "name": "Lia Pavlova",
       "aboutTitle": "ABOUT ME",
       "aboutSubTitle": "A Full Stack Web Developer",
-      "aboutDescription": "services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.",
+      "aboutDescription": "in creating stylish, modern websites, web services and online stores turnkey. My passion is to design digital user experiences through the bold interface and meaningful interactions.",
 
       "Email": "pavlova_li@ukr.net",
       "Phone": "+38(096)78 64 900"
     }
   ],
-  "count": [
+
+  "info": [
     {
       "Title": "Available",
-      "count": "Freelance"
+      "info": "Freelance"
     },
     {
       "Title": "Kharkiv, Ukraine",
-      "count": "Residence"
+      "info": "Residence"
     },
     {
       "Title": "pavlova_li@ukr.net",
-      "count": "Email"
+      "info": "Email"
     },
     {
       "Title": "+38(096)78 64 900",
-      "count": "Phone"
+      "info": "Phone"
     }
   ]
 }

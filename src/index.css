@@ -379,7 +379,7 @@ hr {
   font-size: 15px;
 }
 
-.about-section .counter {
+.about-section .info-profile {
   margin-top: 20px;
   padding: 25px 10px;
   flex-grow: 1;
@@ -391,18 +391,18 @@ hr {
   box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
 }
 
-.about-section .counter .count-data {
+.about-section .info-profile .info-profile-data {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.about-section .counter .count {
+.about-section .info-profile .info-pro-file {
   font-weight: 700;
   color: #00cf5d;
   margin: 0 0 5px;
 }
 
-.about-section .counter p {
+.about-section .info-profile p {
   font-weight: 600;
   margin: 0;
 }

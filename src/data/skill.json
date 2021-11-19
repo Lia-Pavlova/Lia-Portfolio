@@ -1,13 +1,4 @@
 {
-  "Web": [
-    { "name": "Webpack", "percent": 60 },
-    { "name": "Parcel", "percent": 80 },
-    { "name": "NPM", "percent": 80 },
-    { "name": "React Router", "percent": 50 },
-    { "name": "React Toolkit", "percent": 50 },
-    { "name": "Redux", "percent": 20 }
-  ],
-
   "Programming": [
     { "name": "HTML", "percent": 90 },
     { "name": "CSS", "percent": 90 },
@@ -18,22 +9,29 @@
 
   "LibraryOrFramework": [
     { "name": "React.js", "percent": 50 },
+    { "name": "React Router", "percent": 50 },
+    { "name": "Redux", "percent": 50 },
+    { "name": "Redux Toolkit", "percent": 30 },
     { "name": "Node.js", "percent": 20 },
+    { "name": "NPM", "percent": 80 },
+    { "name": "Webpack", "percent": 60 },
+    { "name": "Parcel", "percent": 90 },
     { "name": "jQuery", "percent": 70 },
     { "name": "Chart.js", "percent": 40 },
-    { "name": "Bootstrap", "percent": 70 },
-    { "name": "Vue.js", "percent": 0 },
+    { "name": "Bootstrap", "percent": 60 },
+    { "name": "Vue.js", "percent": 5 },
     { "name": "Materialize", "percent": 50 },
     { "name": "MAterial UI", "percent": 20 }
   ],
 
   "Tools": [
-    { "name": "Git", "percent": 90 },
-    { "name": "GitHub", "percent": 90 },
-    { "name": "VS Code", "percent": 90 },
-    { "name": "Photoshop", "percent": 70 },
-    { "name": "Figma", "percent": 50 },
-    { "name": "Adobe", "percent": 70 },
+    { "name": "Git", "percent": 99 },
+    { "name": "GitHub", "percent": 99 },
+    { "name": "VS Code", "percent": 99 },
+    { "name": "Photoshop", "percent": 90 },
+    { "name": "Figma", "percent": 70 },
+    { "name": "Avocode", "percent": 50 },
+    { "name": "Adobe", "percent": 90 },
     { "name": "Codepen", "percent": 30 },
     { "name": "Trello", "percent": 80 },
     { "name": "Slack", "percent": 80 }

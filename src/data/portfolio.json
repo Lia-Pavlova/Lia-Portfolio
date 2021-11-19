@@ -59,8 +59,8 @@
       "description": "Movie Search - personal study project of movie search and storage application. For the backend was used the themoviedb.org API.",
       "demo": "https://lia-pavlova.github.io/goit-react-hw-05-movies/",
       "source": "https://github.com/Lia-Pavlova/goit-react-hw-05-movies",
-      "tools1": "React",
-      "tools2": "React-router-dom",
+      "tools1": "React.js",
+      "tools2": "React-Router-Dom",
       "tools3": "JavaScript",
       "tools4": "Axios",
       "tools5": "CSS Modules"

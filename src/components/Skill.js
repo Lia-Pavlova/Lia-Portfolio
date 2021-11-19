@@ -3,24 +3,22 @@ import { ProgressBar } from 'react-bootstrap'
 import SkillData from '../data/skill.json'
 
 export default function Skill() {
-  const [skill, setSkill] = useState([])
   const [programming, setProgramming] = useState([])
   const [libraryOrFramework, setLibraryOrFramework] = useState([])
-  const [tool, setTool] = useState([])
+  const [tools, setTools] = useState([])
   const [softSkill, setSoftSkill] = useState([])
 
   useEffect(() => {
-    const skill = SkillData.Web
     const programming = SkillData.Programming
     const libraryOrFramework = SkillData.LibraryOrFramework
-    const tool = SkillData.Tools
+    const tools = SkillData.Tools
     const softSkill = SkillData.SoftSkill
-    setSkill(skill)
+
     setProgramming(programming)
     setLibraryOrFramework(libraryOrFramework)
-    setTool(tool)
+    setTools(tools)
     setSoftSkill(softSkill)
-  }, [skill, programming, libraryOrFramework, tool, softSkill])
+  }, [programming, libraryOrFramework, tools, softSkill])
   return (
     <section className="skill section" id="skill">
       <div className="container">
@@ -31,14 +29,14 @@ export default function Skill() {
           <li className="nav-item" role="presentation">
             <a
               className="nav-link active"
-              id="pills-web-tab"
+              id="pills-programming-tab"
               data-toggle="pill"
-              href="#pills-web"
+              href="#pills-programming"
               role="tab"
-              aria-controls="pills-web"
+              aria-controls="pills-programming"
               aria-selected="true"
             >
-              Web
+              Programming Language
             </a>
           </li>
           <li className="nav-item" role="presentation">
@@ -49,22 +47,9 @@ export default function Skill() {
               href="#pills-libraryandframework"
               role="tab"
               aria-controls="pills-libraryandframework"
-              aria-selected="true"
-            >
-              Framework/Library
-            </a>
-          </li>
-          <li className="nav-item" role="presentation">
-            <a
-              className="nav-link"
-              id="pills-programming-tab"
-              data-toggle="pill"
-              href="#pills-programming"
-              role="tab"
-              aria-controls="pills-programming"
               aria-selected="false"
             >
-              Programming
+              Framework/Library
             </a>
           </li>
           <li className="nav-item" role="presentation">
@@ -77,7 +62,7 @@ export default function Skill() {
               aria-controls="pills-tool"
               aria-selected="false"
             >
-              Tool
+              Software/Tools
             </a>
           </li>
           <li className="nav-item" role="presentation">
@@ -88,7 +73,7 @@ export default function Skill() {
               href="#pills-soft-skill"
               role="tab"
               aria-controls="pills-softs-kill"
-              aria-selected="true"
+              aria-selected="false"
             >
               Soft Skill
             </a>
@@ -97,22 +82,22 @@ export default function Skill() {
         <div className="tab-content" id="pills-tabContent">
           <div
             className="tab-pane fade show active"
-            id="pills-web"
+            id="pills-programming"
             role="tabpanel"
-            aria-labelledby="pills-web-tab"
+            aria-labelledby="pills-programming-tab"
           >
             <div className="row">
-              {skill.map((skillInfo) => {
+              {programming.map((programmingInfo) => {
                 return (
                   <div className="col-md-4">
-                    <div className="card bg-darkblue mb-4">
+                    <div className="card bg-darkblue mb-5">
                       <div className="card-body">
                         <div className="progress-header clearfix">
                           <h5 className="card-title float-left">
-                            {skillInfo.name}
+                            {programmingInfo.name}
                           </h5>
                           <h6 className="card-title float-right">
-                            {skillInfo.percent}%
+                            {programmingInfo.percent}%
                           </h6>
                         </div>
 
@@ -121,7 +106,7 @@ export default function Skill() {
                           animated
                           variant="success"
                           style={{ height: '1px' }}
-                          now={skillInfo.percent}
+                          now={programmingInfo.percent}
                         />
                       </div>
                     </div>
@@ -165,41 +150,7 @@ export default function Skill() {
               })}
             </div>
           </div>
-          <div
-            className="tab-pane fade"
-            id="pills-programming"
-            role="tabpanel"
-            aria-labelledby="pills-programming-tab"
-          >
-            <div className="row">
-              {programming.map((programmingInfo) => {
-                return (
-                  <div className="col-md-4">
-                    <div className="card bg-darkblue mb-5">
-                      <div className="card-body">
-                        <div className="progress-header clearfix">
-                          <h5 className="card-title float-left">
-                            {programmingInfo.name}
-                          </h5>
-                          <h6 className="card-title float-right">
-                            {programmingInfo.percent}%
-                          </h6>
-                        </div>
 
-                        <ProgressBar
-                          className="bg-dark"
-                          animated
-                          variant="success"
-                          style={{ height: '1px' }}
-                          now={programmingInfo.percent}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
           <div
             className="tab-pane fade"
             id="pills-tool"
@@ -207,7 +158,7 @@ export default function Skill() {
             aria-labelledby="pills-tool-tab"
           >
             <div className="row">
-              {tool.map((toolInfo) => {
+              {tools.map((toolInfo) => {
                 return (
                   <div className="col-md-4">
                     <div className="card bg-darkblue mb-5">

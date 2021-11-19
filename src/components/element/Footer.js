@@ -75,7 +75,7 @@ export default function Footer() {
               </a>
             </li>
             <div className="scroll-up">
-              <a href="#hero" id="scrollToTopBtn" className="back-to-top">
+              <a href="#home" id="scrollToTopBtn" className="back-to-top">
                 <span role="img" aria-labelledby="">
                   ☝️
                 </span>

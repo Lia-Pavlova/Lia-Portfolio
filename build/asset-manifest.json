@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/Lia-Portfolio/static/css/main.6f736ae1.chunk.css",
-    "main.js": "/Lia-Portfolio/static/js/main.6a8d102b.chunk.js",
-    "main.js.map": "/Lia-Portfolio/static/js/main.6a8d102b.chunk.js.map",
+    "main.css": "/Lia-Portfolio/static/css/main.41f56633.chunk.css",
+    "main.js": "/Lia-Portfolio/static/js/main.2d4b64e5.chunk.js",
+    "main.js.map": "/Lia-Portfolio/static/js/main.2d4b64e5.chunk.js.map",
     "runtime-main.js": "/Lia-Portfolio/static/js/runtime-main.6ffe0ac4.js",
     "runtime-main.js.map": "/Lia-Portfolio/static/js/runtime-main.6ffe0ac4.js.map",
-    "static/js/2.477badea.chunk.js": "/Lia-Portfolio/static/js/2.477badea.chunk.js",
-    "static/js/2.477badea.chunk.js.map": "/Lia-Portfolio/static/js/2.477badea.chunk.js.map",
+    "static/js/2.7b3d4c16.chunk.js": "/Lia-Portfolio/static/js/2.7b3d4c16.chunk.js",
+    "static/js/2.7b3d4c16.chunk.js.map": "/Lia-Portfolio/static/js/2.7b3d4c16.chunk.js.map",
     "index.html": "/Lia-Portfolio/index.html",
-    "precache-manifest.9b0241194abba730c24168bfda40a345.js": "/Lia-Portfolio/precache-manifest.9b0241194abba730c24168bfda40a345.js",
+    "precache-manifest.7184bc41303b0621d9696a70d1a66ba8.js": "/Lia-Portfolio/precache-manifest.7184bc41303b0621d9696a70d1a66ba8.js",
     "service-worker.js": "/Lia-Portfolio/service-worker.js",
-    "static/css/main.6f736ae1.chunk.css.map": "/Lia-Portfolio/static/css/main.6f736ae1.chunk.css.map",
-    "static/js/2.477badea.chunk.js.LICENSE.txt": "/Lia-Portfolio/static/js/2.477badea.chunk.js.LICENSE.txt",
-    "static/media/Lia_Pavlova_CV.pdf": "/Lia-Portfolio/static/media/Lia_Pavlova_CV.78d24cb1.pdf",
+    "static/css/main.41f56633.chunk.css.map": "/Lia-Portfolio/static/css/main.41f56633.chunk.css.map",
+    "static/js/2.7b3d4c16.chunk.js.LICENSE.txt": "/Lia-Portfolio/static/js/2.7b3d4c16.chunk.js.LICENSE.txt",
+    "static/media/Natalia_Pavlova_resume.pdf": "/Lia-Portfolio/static/media/Natalia_Pavlova_resume.4b8d9996.pdf",
+    "static/media/aec.jpg": "/Lia-Portfolio/static/media/aec.4769ad92.jpg",
+    "static/media/certificate.png": "/Lia-Portfolio/static/media/certificate.4e15160a.png",
     "static/media/index.css": "/Lia-Portfolio/static/media/lia.82f443e6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6ffe0ac4.js",
-    "static/js/2.477badea.chunk.js",
-    "static/css/main.6f736ae1.chunk.css",
-    "static/js/main.6a8d102b.chunk.js"
+    "static/js/2.7b3d4c16.chunk.js",
+    "static/css/main.41f56633.chunk.css",
+    "static/js/main.2d4b64e5.chunk.js"
   ]
 }

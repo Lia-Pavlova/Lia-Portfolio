@@ -27,12 +27,12 @@ export default function Hero() {
             </div>
             <div className="resume">
               <a
-                href="../data/LiaPavlovaCV.pdf"
+                href="../assets/Lia_Pavlova_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 type="file"
                 className="btn btn-lg btn-green text-white"
-                download
+                download="Lia_Pavlova_CV.pdf"
               >
                 Get Resume
               </a>

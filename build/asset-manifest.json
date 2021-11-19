@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Lia-Portfolio/static/css/main.ec1cda7f.chunk.css",
-    "main.js": "/Lia-Portfolio/static/js/main.deea4f4a.chunk.js",
-    "main.js.map": "/Lia-Portfolio/static/js/main.deea4f4a.chunk.js.map",
+    "main.js": "/Lia-Portfolio/static/js/main.59c6e6ec.chunk.js",
+    "main.js.map": "/Lia-Portfolio/static/js/main.59c6e6ec.chunk.js.map",
     "runtime-main.js": "/Lia-Portfolio/static/js/runtime-main.6ffe0ac4.js",
     "runtime-main.js.map": "/Lia-Portfolio/static/js/runtime-main.6ffe0ac4.js.map",
     "static/js/2.a41ca70e.chunk.js": "/Lia-Portfolio/static/js/2.a41ca70e.chunk.js",
     "static/js/2.a41ca70e.chunk.js.map": "/Lia-Portfolio/static/js/2.a41ca70e.chunk.js.map",
     "index.html": "/Lia-Portfolio/index.html",
-    "precache-manifest.a4904708ecd2264d8cb1f1b6c71b057d.js": "/Lia-Portfolio/precache-manifest.a4904708ecd2264d8cb1f1b6c71b057d.js",
+    "precache-manifest.5ea215826d6f57ef5ba536533ae706ba.js": "/Lia-Portfolio/precache-manifest.5ea215826d6f57ef5ba536533ae706ba.js",
     "service-worker.js": "/Lia-Portfolio/service-worker.js",
     "static/css/main.ec1cda7f.chunk.css.map": "/Lia-Portfolio/static/css/main.ec1cda7f.chunk.css.map",
     "static/js/2.a41ca70e.chunk.js.LICENSE.txt": "/Lia-Portfolio/static/js/2.a41ca70e.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6ffe0ac4.js",
     "static/js/2.a41ca70e.chunk.js",
     "static/css/main.ec1cda7f.chunk.css",
-    "static/js/main.deea4f4a.chunk.js"
+    "static/js/main.59c6e6ec.chunk.js"
   ]
 }

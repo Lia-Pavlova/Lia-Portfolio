@@ -18,20 +18,10 @@ export default function Contact() {
                 <div className="contact-status">
                   <ul>
                     <li>
-                      <h5>
-                        {' '}
-                        <span role="img" aria-labelledby="">
-                          📨 {contactInfo.Email}
-                        </span>
-                      </h5>
+                      <h5>{contactInfo.Email}</h5>
                     </li>
                     <li>
-                      <h5>
-                        {' '}
-                        <span role="img" aria-labelledby="">
-                          📞 {contactInfo.Phone}
-                        </span>
-                      </h5>
+                      <h5>{contactInfo.Phone}</h5>
                     </li>
                   </ul>
                 </div>

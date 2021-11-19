@@ -1,5 +1,6 @@
 import React from 'react'
 import Social from './element/Social'
+import resume_file from '../assets/Lia_Pavlova_CV.pdf'
 
 export default function Hero() {
   return (
@@ -27,7 +28,7 @@ export default function Hero() {
             </div>
             <div className="resume">
               <a
-                href="../assets/Lia_Pavlova_CV.pdf"
+                href={resume_file}
                 target="_blank"
                 rel="noopener noreferrer"
                 type="file"

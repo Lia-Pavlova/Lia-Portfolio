@@ -158,7 +158,7 @@ export default function Education() {
                     </a>
 
                     <ul>
-                      <li>Full Stack Developer</li>
+                      <li>Full-Stack Developer</li>
                     </ul>
                     <div className="links">
                       <ul>

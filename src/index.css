@@ -620,7 +620,7 @@ hr {
 } */
 
 /*----------------------------------------*/
-.App button {
+.scrollUpToTop button {
   /* padding: 1rem 2rem; */
   margin: 3rem;
   border-radius: 50%;
@@ -642,7 +642,7 @@ hr {
   padding: 5px;
 }
 
-.App button.show {
+.scrollUpToTop button.show {
   bottom: 0rem;
 }
 

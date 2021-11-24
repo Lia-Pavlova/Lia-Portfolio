@@ -103,7 +103,7 @@ export default function Footer() {
               </a>
             </div> */}
 
-            <div className="App">
+            <div className="scrollUpToTop">
               <button
                 className={scroll < 300 ? '' : 'show'}
                 onClick={handleUpButton}

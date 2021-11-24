@@ -1,4 +1,25 @@
 {
+  "additionalGoIt": [
+    {
+      "year": "2021 - present",
+      "companyName": "IT School GoIT",
+      "site": "https://goit.ua/fullstackonline/",
+      "role1": "Full-Stack Developer",
+      "certificate": "certificate.png",
+      "certificate1": "https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/data/certificate.png"
+    }
+  ],
+  "additionalAec": [
+    {
+      "year": "2008 - 2009",
+      "companyName": "American English Center",
+      "site": "https://americanenglish.ua/ru/",
+      "role1": "The advanced level of instruction",
+      "certificate": "aec.jpg",
+      "certificate1": "https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/data/aec.jpg"
+    }
+  ],
+
   "education": [
     {
       "year": "2011 - 2014 (Postgraduate student)",
@@ -23,25 +44,6 @@
       "companyName": "Kharkiv Patent Computer College",
       "role1": "Diploma of Junior specialist with qualification Junior engineer-electronics",
       "role2": "Specialization: 5.091504 Service of computer intellectual systems and networks"
-    }
-  ],
-
-  "additionalEd": [
-    {
-      "year": "2021 - present",
-      "companyName": "IT School GoIT",
-      "site": "https://goit.ua/fullstackonline/",
-      "role1": "Full-Stack Developer",
-      "certificate1": "certificate.png",
-      "certificate": "https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/data/certificate.png"
-    },
-    {
-      "year": "2008 - 2009",
-      "companyName": "American English Center",
-      "site": "https://americanenglish.ua/ru/",
-      "role1": "The advanced level of instruction",
-      "certificate": "aec.jpg",
-      "certificate1": "https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/data/aec.jpg"
     }
   ],
 

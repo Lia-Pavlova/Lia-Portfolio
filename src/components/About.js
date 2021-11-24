@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import profile from '../assets/image/lia.jpg'
+import profile from '../assets/image/programmer.jpg'
 import about from '../data/about.json'
 
 export default function About() {

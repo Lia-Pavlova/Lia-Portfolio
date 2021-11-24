@@ -212,6 +212,16 @@ hr {
   margin-bottom: 10px;
 }
 
+.social-list-item:hover {
+  fill: #00cf5d;
+  transform: scale(1.2);
+}
+
+.social-footer-item:hover {
+  fill: #00cf5d;
+  /* transform: scale(0.9) rotate(-5deg); */
+}
+
 .intro-content.ml-5 {
   padding-left: 72px;
 }
@@ -605,8 +615,42 @@ hr {
   font-size: 30px;
 }
 
-.scroll-up {
+/* .scroll-up {
   margin-left: 20px;
+} */
+
+/*----------------------------------------*/
+.App button {
+  /* padding: 1rem 2rem; */
+  margin: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: -6rem;
+  right: 0.2rem;
+  transition: 0.2s all ease-in-out;
+  background-color: #1d293a;
+  color: white;
+  border: solid 2px;
+  border: 2px solid #00cf5d;
+  /* background-color: #00cf5d; */
+  /* border-color: #229954; */
+  outline: none;
+  opacity: 0.5;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.App button.show {
+  bottom: 0rem;
+}
+
+.App button:hover,
+.App button:focus {
+  /* border: solid 4px; */
+  /* border-color: #00cf5d; */
+  opacity: 1;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

@@ -11,6 +11,7 @@ export default function Social() {
             rel="noopener noreferrer"
           >
             <svg
+              className="social-list-item"
               xmlns="http://www.w3.org/2000/svg"
               fill="#ffffff"
               width="24"
@@ -28,6 +29,7 @@ export default function Social() {
             rel="noopener noreferrer"
           >
             <svg
+              className="social-list-item"
               xmlns="http://www.w3.org/2000/svg"
               fill="#ffffff"
               width="24"
@@ -46,6 +48,7 @@ export default function Social() {
             rel="noopener noreferrer"
           >
             <svg
+              className="social-list-item"
               xmlns="http://www.w3.org/2000/svg"
               fill="#ffffff"
               width="24"
@@ -63,6 +66,7 @@ export default function Social() {
             rel="noopener noreferrer"
           >
             <svg
+              className="social-list-item"
               xmlns="http://www.w3.org/2000/svg"
               fill="#ffffff"
               width="24"

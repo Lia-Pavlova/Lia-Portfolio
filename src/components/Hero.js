@@ -33,7 +33,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 type="file"
                 className="btn btn-lg btn-green text-white"
-                download="Natalia_Pavlova_resume.pdf"
+                download="Natalia_Pavlova_CV.pdf"
               >
                 Get Resume
               </a>

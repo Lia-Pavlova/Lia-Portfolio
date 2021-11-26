@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8de7fe463c71392ce3cbac7f948d01bb",
+    "revision": "650868d3ac9271cba2d5d42cf5c1be56",
     "url": "/Lia-Portfolio/index.html"
   },
   {
-    "revision": "7c63f34e3ba25c02ac06",
+    "revision": "64dc6b7a737181f17cd4",
     "url": "/Lia-Portfolio/static/css/main.1f00b3b5.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lia-Portfolio/static/js/2.6d337ac9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c63f34e3ba25c02ac06",
-    "url": "/Lia-Portfolio/static/js/main.cb62edaa.chunk.js"
+    "revision": "64dc6b7a737181f17cd4",
+    "url": "/Lia-Portfolio/static/js/main.10a2e4e4.chunk.js"
   },
   {
     "revision": "93c7f8235cbf5442ced2",
     "url": "/Lia-Portfolio/static/js/runtime-main.6ffe0ac4.js"
   },
   {
-    "revision": "03aa760ac60de9c16c3d2ae98f089ae6",
-    "url": "/Lia-Portfolio/static/media/CV_Natalia_Pavlova.03aa760a.pdf"
+    "revision": "d1233e8aba262cb12b75a722a3c5e163",
+    "url": "/Lia-Portfolio/static/media/Natalia_Pavlova_CV.d1233e8a.pdf"
   },
   {
     "revision": "4769ad92c4666bb4cd4ff6f2934ba428",

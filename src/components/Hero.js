@@ -1,6 +1,6 @@
 import React from 'react'
 import Social from './element/Social'
-import resume_file from '../assets/CV_Natalia_Pavlova.pdf'
+import resume_file from '../assets/Natalia_Pavlova_CV.pdf'
 
 export default function Hero() {
   return (

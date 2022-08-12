@@ -1,27 +1,21 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import contact from '../data/about.json'
 
 export default function Contact() {
-  const [contactData, setContact] = useState([])
-  useEffect(() => {
-    const contactData = contact.profile
-    setContact(contactData)
-  }, [contactData])
-
   return (
     <div className="contact section" id="contact">
       <div className="container">
         <div className="row">
-          {contactData.map((contactInfo) => {
+          {contact.profile.map((contactInfo) => {
             return (
               <div className="col-md-6">
                 <div className="contact-status">
                   <ul>
                     <li>
-                      <h5>{contactInfo.Email}</h5>
+                      <h5>{contactInfo.email}</h5>
                     </li>
                     <li>
-                      <h5>{contactInfo.Phone}</h5>
+                      <h5>{contactInfo.phone}</h5>
                     </li>
                   </ul>
                 </div>

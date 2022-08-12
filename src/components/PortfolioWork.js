@@ -2,18 +2,6 @@ import React from 'react'
 import portfolio from '../data/portfolio.json'
 
 export default function PortfolioWork() {
-  // const [ownPortfolio, setOwnPortfolio] = useState([])
-  // const [teamPortfolio, setTeamPortfolio] = useState([])
-  // const [otherPort, setOther] = useState([])
-  // useEffect(() => {
-  //   const ownPortfolio = Portfolio.Own
-  //   const teamPortfolio = Portfolio.Team
-  //   const otherPort = Portfolio.Others
-  //   setOwnPortfolio(ownPortfolio)
-  //   setTeamPortfolio(teamPortfolio)
-  //   setOther(otherPort)
-  // }, [ownPortfolio, teamPortfolio, otherPort])
-
   return (
     <section className="portfolio section" id="portfolio">
       <div className="container">

@@ -31,11 +31,11 @@ export default function Header() {
                 PORTFOLIO
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#contact">
                 CONTACT
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 href="https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/assets/Lia_Pavlova.pdf"

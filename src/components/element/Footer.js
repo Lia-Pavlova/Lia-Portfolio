@@ -95,14 +95,6 @@ export default function Footer() {
               </a>
             </li>
 
-            {/* <div className="scroll-up">
-              <a href="#home" id="scrollToTopBtn" className="back-to-top">
-                <span role="img" aria-labelledby="">
-                  ☝️
-                </span>
-              </a>
-            </div> */}
-
             <div className="scrollUpToTop">
               <button
                 className={scroll < 300 ? '' : 'show'}

@@ -5,7 +5,7 @@ import About from '../components/About'
 import Education from '../components/Education.js'
 import Skill from '../components/Skill.js'
 import PortfolioWork from '../components/PortfolioWork.js'
-import Contact from '../components/Contact.js'
+// import Contact from '../components/Contact.js'
 import Footer from '../components/element/Footer.js'
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <Education></Education>
       <Skill></Skill>
       <PortfolioWork></PortfolioWork>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
       <Footer></Footer>
     </div>
   )

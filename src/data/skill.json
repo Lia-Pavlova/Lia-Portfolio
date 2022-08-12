@@ -1,45 +1,49 @@
 {
-  "Programming": [
+  "programming": [
     { "name": "HTML", "percent": 90 },
     { "name": "CSS", "percent": 90 },
-    { "name": "Sass", "percent": 90 },
+    { "name": "SASS", "percent": 90 },
     { "name": "JavaScript", "percent": 70 },
-    { "name": "TypeScript", "percent": 5 }
+    { "name": "TypeScript", "percent": 50 },
+    { "name": "Go", "percent": 20 }
   ],
 
-  "LibraryOrFramework": [
-    { "name": "React.js", "percent": 50 },
-    { "name": "React Router", "percent": 50 },
-    { "name": "Redux", "percent": 50 },
-    { "name": "Redux Toolkit", "percent": 30 },
-    { "name": "Node.js", "percent": 20 },
+  "libraryOrFramework": [
+    { "name": "React.js", "percent": 70 },
+    { "name": "Redux", "percent": 60 },
+    { "name": "Node.js", "percent": 40 },
     { "name": "NPM", "percent": 80 },
     { "name": "Webpack", "percent": 60 },
-    { "name": "Parcel", "percent": 90 },
-    { "name": "jQuery", "percent": 70 },
-    { "name": "Chart.js", "percent": 40 },
+    { "name": "Parcel", "percent": 60 },
     { "name": "Bootstrap", "percent": 60 },
-    { "name": "Vue.js", "percent": 5 },
     { "name": "Materialize", "percent": 50 },
-    { "name": "MAterial UI", "percent": 20 }
+    { "name": "MAterial UI", "percent": 70 }
   ],
 
-  "Tools": [
-    { "name": "Git", "percent": 99 },
-    { "name": "GitHub", "percent": 99 },
-    { "name": "VS Code", "percent": 99 },
+  "tools": [
+    { "name": "Git", "percent": 70 },
+    { "name": "GitHub", "percent": 85 },
+    { "name": "MongoDB", "percent": 50 },
+    { "name": "Postman", "percent": 70 },
+    { "name": "PostgreSQL", "percent": 40 },
+    { "name": "Docker", "percent": 10 },
+    { "name": "VS Code", "percent": 90 },
     { "name": "Photoshop", "percent": 90 },
     { "name": "Figma", "percent": 70 },
-    { "name": "Avocode", "percent": 50 },
-    { "name": "Adobe", "percent": 90 },
-    { "name": "Codepen", "percent": 30 },
-    { "name": "Trello", "percent": 80 },
-    { "name": "Slack", "percent": 80 }
+    { "name": "Trello", "percent": 90 },
+    { "name": "Slack", "percent": 80 },
+    { "name": "Discord", "percent": 80 },
+    { "name": "Agile", "percent": 70 },
+    { "name": "GTD", "percent": 90 },
+    { "name": "SCRUM", "percent": 70 }
   ],
 
-  "SoftSkill": [
-    { "name": "Agile", "percent": 90 },
-    { "name": "GTD", "percent": 90 },
-    { "name": "SCRUM", "percent": 90 }
+  "softSkill": [
+    { "name": "Meticulous" },
+    { "name": "Creative thinking", "percent": 90 },
+    { "name": "Committed", "percent": 70 },
+    { "name": "Focus on results", "percent": 70 },
+    { "name": "Teamwork", "percent": 90 },
+    { "name": "Willingness to learn", "percent": 70 }
   ]
 }

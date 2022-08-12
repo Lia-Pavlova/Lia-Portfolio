@@ -1,5 +1,5 @@
 {
-  "Own": [
+  "own": [
     {
       "type": "featured",
       "name": "WebStudio",
@@ -33,7 +33,7 @@
       "description": "Image Finder - personal study project of application to search and view images by keyword. For HTTP requests was used the public Pixabay API.",
       "demo": "https://lia-pavlova.github.io/goit-js-hw-13-image-finder/",
       "source": "https://github.com/Lia-Pavlova/goit-js-hw-13-image-finder",
-      "tools1": "HTML/CSS",
+      "tools1": "HTML / CSS",
       "tools2": "Sass",
       "tools3": "JavaScript",
       "tools4": "CRUD",
@@ -61,7 +61,7 @@
       "source": "https://github.com/Lia-Pavlova/goit-react-hw-05-movies",
       "tools1": "React.js",
       "tools2": "React-Router-Dom",
-      "tools3": "JavaScript",
+      "tools3": "React Hooks",
       "tools4": "Axios",
       "tools5": "CSS Modules"
     },
@@ -70,17 +70,17 @@
       "name": "Phone Book application",
       "image": "",
       "description": "Phone Book application - personal study project of web-application for creating your own phone book, with ability to login.",
-      "demo": "",
-      "source": "",
+      "demo": "https://lia-phone-book.netlify.app/",
+      "source": "https://github.com/Lia-Pavlova/goit-react-hw-08-phonebook",
       "tools1": "React.js",
-      "tools2": "Redux Toolkit",
-      "tools3": "React Routing",
+      "tools2": "React Hook Form / Redux Thunk",
+      "tools3": "Redux Toolkit / Redux Persist",
       "tools4": "Axios",
-      "tools5": "CSS Modules"
+      "tools5": "Material UI"
     }
   ],
 
-  "Team": [
+  "team": [
     {
       "type": "featured",
       "name": "Donut Masterclass",
@@ -88,7 +88,7 @@
       "description": "Donut Masterclass project [after HTML/CSS course] - mobile-first adaptive web site of donut masterclass. Neat and tasty design, responsive layout.",
       "tasks": "My tasks: section Registration, animation of the donuts , scroll-up button, stylization of validating (if the data is entered incorrectly, appears a cross and the line is highlighted in red, if is successful - appears a green check-mark and the line is highlighted in green).",
       "demo": "https://roman-lahoda.github.io/team-project-16/",
-      "source": "https://github.com/Roman-Lahoda/team-project-16",
+      "source": "https://github.com/Lia-Pavlova/team-project-16",
       "tools1": "HTML",
       "tools2": "Sass",
       "tools3": "JavaScript",
@@ -102,16 +102,44 @@
       "description": "Event booster project [after JS course] -  mobile-first adaptive and responsive web site for finding events in the world, with ability to choose an event by name and country and buy tickets.",
       "tasks": "My tasks: background rendering (mobile, tablet, desktop), themes switcher, team-modal window, dynamic scroll-up button, section Footer, all visual part of application interface at light theme, animation of the main title, animation of movement of the selected page in pagination.",
       "demo": "https://roman-lahoda.github.io/team-project-js/",
-      "source": "https://github.com/Roman-Lahoda/team-project-js",
+      "source": "https://github.com/Lia-Pavlova/team-project-js",
       "tools1": "HTML/CSS",
       "tools2": "JavaScript",
       "tools3": "Parcel",
       "tools4": "Handlebars",
       "tools5": "Firebase"
+    },
+    {
+      "type": "featured",
+      "name": "Kapu$ta",
+      "image": "",
+      "description": "Kapu$ta project [after React & Node.js course] -  mobile-first adaptive and responsive web site for finding events in the world, with ability to choose an event by name, country and buy tickets.",
+      "tasks": "My tasks: background rendering (mobile, tablet, desktop), themes switcher, team-modal window, dynamic scroll-up button, section Footer,  all visual part in the light theme and animation.",
+      "demo": "https://your-capusta.netlify.app",
+      "source": "https://github.com/Lia-Pavlova/kapusta-frontend",
+      "tools1": "React ",
+      "tools2": "Redux",
+      "tools3": "Node.js",
+      "tools4": "Material UI",
+      "tools5": "Victory / Datepicker"
+    },
+    {
+      "type": "featured",
+      "name": "Edora",
+      "image": "",
+      "description": "Edora project [after React & Golang course] -  marketplace with safe purchase and convenient delivery.",
+      "tasks": "My tasks: getting ads from the database; pagination, filtering, sorting ads; saving all search queries into URL for the ability to share the link; currency conversion (API of Privat Bank); page scroll up; «Home» & «About us» pages.",
+      "demo": "https://edora.ua",
+      "source": "https://github.com/ET-School-2022/frontend",
+      "tools1": "React",
+      "tools2": "Redux",
+      "tools3": "Golang / Gin / Gorm",
+      "tools4": "Joi / Moment.js / i18n",
+      "tools5": "Material UI"
     }
   ],
 
-  "Others": [
+  "others": [
     {
       "type": "featured",
       "name": "Covid-19",

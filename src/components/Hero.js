@@ -1,6 +1,6 @@
 import React from 'react'
 import Social from './element/Social'
-import resume_file from '../assets/Natalia_Pavlova_CV.pdf'
+import resume_file from '../assets/Lia_Pavlova.pdf'
 
 export default function Hero() {
   return (
@@ -22,8 +22,12 @@ export default function Hero() {
             <div className="designation-list">
               <ul>
                 <li>
-                  I'm currently working on becoming a Full Stack Web Developer
+                  I have sound knowledge of HTML / CSS / SASS/ JavaScript /
+                  React.JS / Redux
                 </li>
+              </ul>
+              <ul>
+                <li>Also, I have experience in Node.JS / Golang</li>
               </ul>
             </div>
             <div className="resume">

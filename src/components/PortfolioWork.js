@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from 'react'
-import Portfolio from '../data/portfolio.json'
+import React from 'react'
+import portfolio from '../data/portfolio.json'
 
 export default function PortfolioWork() {
-  const [ownPortfolio, setOwnPortfolio] = useState([])
-  const [teamPortfolio, setTeamPortfolio] = useState([])
-  const [otherPort, setOther] = useState([])
-  useEffect(() => {
-    const ownPortfolio = Portfolio.Own
-    const teamPortfolio = Portfolio.Team
-    const otherPort = Portfolio.Others
-    setOwnPortfolio(ownPortfolio)
-    setTeamPortfolio(teamPortfolio)
-    setOther(otherPort)
-  }, [ownPortfolio, teamPortfolio, otherPort])
+  // const [ownPortfolio, setOwnPortfolio] = useState([])
+  // const [teamPortfolio, setTeamPortfolio] = useState([])
+  // const [otherPort, setOther] = useState([])
+  // useEffect(() => {
+  //   const ownPortfolio = Portfolio.Own
+  //   const teamPortfolio = Portfolio.Team
+  //   const otherPort = Portfolio.Others
+  //   setOwnPortfolio(ownPortfolio)
+  //   setTeamPortfolio(teamPortfolio)
+  //   setOther(otherPort)
+  // }, [ownPortfolio, teamPortfolio, otherPort])
 
   return (
     <section className="portfolio section" id="portfolio">
@@ -47,7 +47,7 @@ export default function PortfolioWork() {
               Team Projects
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               className="nav-link"
               id="pills-otherportfolio-tab"
@@ -59,7 +59,7 @@ export default function PortfolioWork() {
             >
               Other
             </a>
-          </li>
+          </li> */}
         </ul>
         <div className="tab-content" id="pills-tabContent">
           <div
@@ -69,7 +69,7 @@ export default function PortfolioWork() {
             aria-labelledby="pills-portfoliowork-tab"
           >
             <div className="row">
-              {ownPortfolio.map((portfolioOwnInfo) => {
+              {portfolio.own.map((portfolioOwnInfo) => {
                 return (
                   <div className="col-md-4 d-flex align-items-stretch">
                     <div className="card-deck">
@@ -151,7 +151,7 @@ export default function PortfolioWork() {
             aria-labelledby="pills-teamportfolio-tab"
           >
             <div className="row">
-              {teamPortfolio.map((portfolioTeamInfo) => {
+              {portfolio.team.map((portfolioTeamInfo) => {
                 return (
                   <div className="col-md-4 d-flex align-items-stretch">
                     <div className="card-deck">
@@ -235,8 +235,8 @@ export default function PortfolioWork() {
             role="tabpanel"
             aria-labelledby="pills-otherportfolio-tab"
           >
-            <div className="row">
-              {otherPort.map((otherInfo) => {
+            {/* <div className="row">
+              {portfolio.others.map((otherInfo) => {
                 return (
                   <div className="col-md-4 d-flex align-items-stretch">
                     <div className="card-deck">
@@ -307,7 +307,7 @@ export default function PortfolioWork() {
                   </div>
                 )
               })}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

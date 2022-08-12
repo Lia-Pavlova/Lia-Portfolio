@@ -1,25 +1,4 @@
 {
-  "additionalGoIt": [
-    {
-      "year": "2021 - present",
-      "companyName": "IT School GoIT",
-      "site": "https://goit.ua/fullstackonline/",
-      "role1": "Full-Stack Developer",
-      "certificate": "certificate.png",
-      "certificate1": "https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/data/certificate.png"
-    }
-  ],
-  "additionalAec": [
-    {
-      "year": "2008 - 2009",
-      "companyName": "American English Center",
-      "site": "https://americanenglish.ua/ru/",
-      "role1": "The advanced level of instruction",
-      "certificate": "aec.jpg",
-      "certificate1": "https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/data/aec.jpg"
-    }
-  ],
-
   "education": [
     {
       "year": "2011 - 2014 (Postgraduate student)",
@@ -28,19 +7,19 @@
       "role2": "Specialization: 05.11.17 Biological medical devices and systems"
     },
     {
-      "year": "2009 - 2010 (Master of Science)",
+      "year": "2009 - 2010 (Master of Science with honors)",
       "companyName": "Kharkiv National University of Radioelectronics",
       "role1": "Master of Science (M.S.) with qualification Scientific associate (electronics, biomedical equipments)",
       "role2": "Specialization: 8.091002 Biotechnical medical devices and systems"
     },
     {
-      "year": "2005 - 2009 (Bachelor's degree)",
+      "year": "2005 - 2009 (Bachelor's degree with honors)",
       "companyName": "Kharkiv National University of Radioelectronics",
       "role1": "Bachelor's degree with qualification Specialist at field of electronics and telecommunications",
       "role2": "Specialization: 6.0910 Electronic devices"
     },
     {
-      "year": "2001 - 2005 (Junior engineer-electronics)",
+      "year": "2001 - 2005 (Junior engineer-electronics with honors)",
       "companyName": "Kharkiv Patent Computer College",
       "role1": "Diploma of Junior specialist with qualification Junior engineer-electronics",
       "role2": "Specialization: 5.091504 Service of computer intellectual systems and networks"

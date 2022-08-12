@@ -38,7 +38,7 @@ export default function Header() {
             </li>
             <li className="nav-item">
               <a
-                href="https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/assets/Natalia_Pavlova_CV.pdf"
+                href="https://github.com/Lia-Pavlova/Lia-Portfolio/blob/main/src/assets/Lia_Pavlova.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-success btn-download text-white my-3 my-sm-0"

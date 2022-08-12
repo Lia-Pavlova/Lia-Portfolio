@@ -1,24 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { ProgressBar } from 'react-bootstrap'
-import SkillData from '../data/skill.json'
+import skillData from '../data/skill.json'
 
 export default function Skill() {
-  const [programming, setProgramming] = useState([])
-  const [libraryOrFramework, setLibraryOrFramework] = useState([])
-  const [tools, setTools] = useState([])
-  const [softSkill, setSoftSkill] = useState([])
-
-  useEffect(() => {
-    const programming = SkillData.Programming
-    const libraryOrFramework = SkillData.LibraryOrFramework
-    const tools = SkillData.Tools
-    const softSkill = SkillData.SoftSkill
-
-    setProgramming(programming)
-    setLibraryOrFramework(libraryOrFramework)
-    setTools(tools)
-    setSoftSkill(softSkill)
-  }, [programming, libraryOrFramework, tools, softSkill])
   return (
     <section className="skill section" id="skill">
       <div className="container">
@@ -49,7 +33,7 @@ export default function Skill() {
               aria-controls="pills-libraryandframework"
               aria-selected="false"
             >
-              Framework/Library
+              Framework / Library
             </a>
           </li>
           <li className="nav-item" role="presentation">
@@ -62,7 +46,7 @@ export default function Skill() {
               aria-controls="pills-tool"
               aria-selected="false"
             >
-              Software/Tools
+              Software / Tools
             </a>
           </li>
           <li className="nav-item" role="presentation">
@@ -87,7 +71,7 @@ export default function Skill() {
             aria-labelledby="pills-programming-tab"
           >
             <div className="row">
-              {programming.map((programmingInfo) => {
+              {skillData.programming.map((programmingInfo) => {
                 return (
                   <div className="col-md-4">
                     <div className="card bg-darkblue mb-5">
@@ -122,7 +106,7 @@ export default function Skill() {
             aria-labelledby="pills-libraryandframework-tab"
           >
             <div className="row">
-              {libraryOrFramework.map((libraryOrFrameworkInfo) => {
+              {skillData.libraryOrFramework.map((libraryOrFrameworkInfo) => {
                 return (
                   <div className="col-md-4">
                     <div className="card bg-darkblue mb-5">
@@ -158,7 +142,7 @@ export default function Skill() {
             aria-labelledby="pills-tool-tab"
           >
             <div className="row">
-              {tools.map((toolInfo) => {
+              {skillData.tools.map((toolInfo) => {
                 return (
                   <div className="col-md-4">
                     <div className="card bg-darkblue mb-5">
@@ -193,7 +177,7 @@ export default function Skill() {
             aria-labelledby="pills-soft-skill-tab"
           >
             <div className="row">
-              {softSkill.map((softSkillInfo) => {
+              {skillData.softSkill.map((softSkillInfo) => {
                 return (
                   <div className="col-md-4">
                     <div className="card bg-darkblue mb-5">
@@ -202,18 +186,7 @@ export default function Skill() {
                           <h5 className="card-title float-left">
                             {softSkillInfo.name}
                           </h5>
-                          <h6 className="card-title float-right">
-                            {softSkillInfo.percent}%
-                          </h6>
                         </div>
-
-                        <ProgressBar
-                          className="bg-dark"
-                          animated
-                          variant="success"
-                          style={{ height: '1px' }}
-                          now={softSkillInfo.percent}
-                        />
                       </div>
                     </div>
                   </div>

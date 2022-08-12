@@ -1,22 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import profile from '../assets/image/programmer.jpg'
 import about from '../data/about.json'
 
 export default function About() {
-  const [profileImg, setProfileImg] = useState([])
-  const [info, setInfo] = useState([])
-
-  useEffect(() => {
-    const profileImg = about.profile
-    const info = about.info
-    setProfileImg(profileImg)
-    setInfo(info)
-  }, [profileImg, info])
-
   return (
     <section className="about-section section" id="about">
       <div className="container">
-        {profileImg.map((profileData) => {
+        {about.profile.map((profileData) => {
           return (
             <div className="row align-items-center ">
               <div className="col-lg-8 col-md-8 col-sm-12">
@@ -25,9 +15,8 @@ export default function About() {
                   <h6 className="lead text-white">
                     {profileData.aboutSubTitle}
                   </h6>
-                  <p>
-                    I'm <mark>specializing</mark> {profileData.aboutDescription}
-                  </p>
+                  <p>{profileData.aboutDescription1}</p>
+                  <p>{profileData.aboutDescription2}</p>
                   <div className="row about-list"></div>
                 </div>
               </div>
@@ -43,7 +32,7 @@ export default function About() {
 
         <div className="info-profile">
           <div className="row">
-            {info.map((infoData) => {
+            {about.info.map((infoData) => {
               return (
                 <div className="col-6 col-lg-3">
                   <div className="info-profile-data text-center">
@@ -54,7 +43,7 @@ export default function About() {
                     >
                       {infoData.info}
                     </h6>
-                    <p className="m-0px font-w-400">{infoData.Title}</p>
+                    <p className="m-0px font-w-400">{infoData.title}</p>
                   </div>
                 </div>
               )

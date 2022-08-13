@@ -12,7 +12,7 @@ export default function Education() {
       year: 'May - July 2022',
       companyName: 'IT School ElifTech',
       site: 'https://www.eliftech.com/',
-      role1: 'Full-Stack Developer (React & Golang)',
+      role1: 'FullStack Developer (React & Golang)',
       certificate: img4,
     },
     {
@@ -26,7 +26,7 @@ export default function Education() {
       year: '2021 - 2022',
       companyName: 'IT School GoIT',
       site: 'https://goit.ua/fullstackonline/',
-      role1: 'Full-Stack Developer',
+      role1: 'FullStack Developer',
       certificate: img2,
     },
     {

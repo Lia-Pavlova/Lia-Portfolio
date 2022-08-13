@@ -22,7 +22,7 @@ export default function Hero() {
             <div className="designation-list">
               <ul>
                 <li>
-                  I have sound knowledge of HTML / CSS / SASS/ JavaScript /
+                  I have sound knowledge of HTML / CSS / SASS / JavaScript /
                   React.JS / Redux
                 </li>
               </ul>

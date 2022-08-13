@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Lia-Portfolio/static/css/main.1f00b3b5.chunk.css",
-    "main.js": "/Lia-Portfolio/static/js/main.877ebd59.chunk.js",
-    "main.js.map": "/Lia-Portfolio/static/js/main.877ebd59.chunk.js.map",
+    "main.css": "/Lia-Portfolio/static/css/main.e577bffb.chunk.css",
+    "main.js": "/Lia-Portfolio/static/js/main.08589ed4.chunk.js",
+    "main.js.map": "/Lia-Portfolio/static/js/main.08589ed4.chunk.js.map",
     "runtime-main.js": "/Lia-Portfolio/static/js/runtime-main.6ffe0ac4.js",
     "runtime-main.js.map": "/Lia-Portfolio/static/js/runtime-main.6ffe0ac4.js.map",
-    "static/js/2.f749f1d9.chunk.js": "/Lia-Portfolio/static/js/2.f749f1d9.chunk.js",
-    "static/js/2.f749f1d9.chunk.js.map": "/Lia-Portfolio/static/js/2.f749f1d9.chunk.js.map",
+    "static/js/2.379d0818.chunk.js": "/Lia-Portfolio/static/js/2.379d0818.chunk.js",
+    "static/js/2.379d0818.chunk.js.map": "/Lia-Portfolio/static/js/2.379d0818.chunk.js.map",
     "index.html": "/Lia-Portfolio/index.html",
-    "precache-manifest.b8d900cfca9f486fa97ff17b1fa9dbe4.js": "/Lia-Portfolio/precache-manifest.b8d900cfca9f486fa97ff17b1fa9dbe4.js",
+    "precache-manifest.b514af0ef49a80ed710638d030a55bea.js": "/Lia-Portfolio/precache-manifest.b514af0ef49a80ed710638d030a55bea.js",
     "service-worker.js": "/Lia-Portfolio/service-worker.js",
-    "static/css/main.1f00b3b5.chunk.css.map": "/Lia-Portfolio/static/css/main.1f00b3b5.chunk.css.map",
-    "static/js/2.f749f1d9.chunk.js.LICENSE.txt": "/Lia-Portfolio/static/js/2.f749f1d9.chunk.js.LICENSE.txt",
+    "static/css/main.e577bffb.chunk.css.map": "/Lia-Portfolio/static/css/main.e577bffb.chunk.css.map",
+    "static/js/2.379d0818.chunk.js.LICENSE.txt": "/Lia-Portfolio/static/js/2.379d0818.chunk.js.LICENSE.txt",
     "static/media/Lia_Pavlova.pdf": "/Lia-Portfolio/static/media/Lia_Pavlova.71a840a3.pdf",
     "static/media/aec.jpg": "/Lia-Portfolio/static/media/aec.4769ad92.jpg",
     "static/media/eliftech.png": "/Lia-Portfolio/static/media/eliftech.d5174953.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6ffe0ac4.js",
-    "static/js/2.f749f1d9.chunk.js",
-    "static/css/main.1f00b3b5.chunk.css",
-    "static/js/main.877ebd59.chunk.js"
+    "static/js/2.379d0818.chunk.js",
+    "static/css/main.e577bffb.chunk.css",
+    "static/js/main.08589ed4.chunk.js"
   ]
 }
